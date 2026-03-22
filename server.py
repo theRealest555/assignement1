@@ -2,7 +2,6 @@
 This is the main server file for the Emotion Detector web application.
 It handles the routing and connects the web interface to the Watson NLP API.
 """
-
 from flask import Flask, render_template, request
 from EmotionDetection.emotion_detection import emotion_detector
 
